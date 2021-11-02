@@ -2,3 +2,4 @@ general:
 steps:
   mtaBuild:
     buildTarget: 'CF'
+    m2Path: '$PIPER_m2Path'
