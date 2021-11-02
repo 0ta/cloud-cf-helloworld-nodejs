@@ -5,7 +5,6 @@ node() {
         setupCommonPipelineEnvironment script:this
     }
     stage('build') {
-        sh './piper version'
-        mtaBuild script: this
+        mtaBuild script:this
     }
 }
